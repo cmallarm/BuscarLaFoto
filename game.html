@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/html" lang="es">
+<head>
+    <title>Buscar la foto</title>
+    <link rel="stylesheet" type="text/css" href="game.css" />
+
+    <script async defer
+            src="http://maps.googleapis.com/maps/api/js?callback=initMap&key=&libraries=geometry">
+    </script>
+    <script src="game.js"></script>
+</head>
+<body>
+    <div id="map"></div>
+    <div id="images">
+        <img id="picture" src="fotos/0.png" alt="Foto"/>
+    </div>
+    <div id="buttonsDiv">
+        <div id="score">
+            <p>Photo 0/10</p>
+            <p>Total : 0</p>
+        </div>
+        <div id="buttonControl">
+            <button type="button" id= "button" onclick="confirmMarker()">Confirmar</button>
+        </div>
+    </div>
+</body>
+</html>

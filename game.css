@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#map {
+    width: 60%;
+    height: 100%;
+    float:left;
+}
+#images {
+    width: 40%;
+    height: 70%;
+    float:right;
+}
+#buttonsDiv {
+    width: 40%;
+    height: 30%;
+    float:right;
+}
+
+
+#buttonControl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    position:relative;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+img {
+    width: 100%;
+    height: 100%
+}
