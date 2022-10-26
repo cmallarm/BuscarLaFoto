@@ -11,4 +11,4 @@ Ejercicio de la clase Sistemas de Información Geográfica y Servicios Web del M
 ### Antes de probar el proyecto
 
 Hay que agregar su API Key en la pagina HTML que se llama "game.html", en lugar de **[APIKEY]** en la linea 8 :
- > http://maps.googleapis.com/maps/api/js?callback=initMap&key=**[APIKEY]**&libraries=geometry
+ > http://maps.googleapis.com/maps/api/js?callback=initMap&key=[APIKEY]&libraries=geometry
